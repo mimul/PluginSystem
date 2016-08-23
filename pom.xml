@@ -7,14 +7,6 @@
     <groupId>com.mimul.plugin</groupId>
     <artifactId>PluginSample</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <!--<dependencies>-->
-        <!--<dependency>-->
-            <!--<groupId>io.airlift</groupId>-->
-            <!--<artifactId>configuration</artifactId>-->
-            <!--<version>0.124</version>-->
-        <!--</dependency>-->
-
-    <!--</dependencies>-->
 
     <parent>
         <groupId>io.airlift</groupId>
@@ -69,22 +61,6 @@
             <artifactId>configuration</artifactId>
             <version>${air.version}</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>io.airlift</groupId>-->
-            <!--<artifactId>http-client</artifactId>-->
-            <!--<version>${air.version}</version>-->
-            <!--<exclusions>-->
-                <!--<exclusion>-->
-                    <!--<groupId>org.openjdk.jol</groupId>-->
-                    <!--<artifactId>jol-core</artifactId>-->
-                <!--</exclusion>-->
-            <!--</exclusions>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>io.airlift</groupId>-->
-            <!--<artifactId>discovery</artifactId>-->
-            <!--<version>${air.version}</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>javax.inject</groupId>
             <artifactId>javax.inject</artifactId>
@@ -95,11 +71,6 @@
             <artifactId>log</artifactId>
             <version>${air.version}</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>io.airlift</groupId>-->
-            <!--<artifactId>json</artifactId>-->
-            <!--<version>${air.version}</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
@@ -110,21 +81,6 @@
             <artifactId>log-manager</artifactId>
             <version>${air.version}</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>io.airlift</groupId>-->
-            <!--<artifactId>concurrent</artifactId>-->
-            <!--<version>${air.version}</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>io.airlift</groupId>-->
-            <!--<artifactId>node</artifactId>-->
-            <!--<version>${air.version}</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>io.airlift</groupId>-->
-            <!--<artifactId>slice</artifactId>-->
-            <!--<version>${dep.slice.version}</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>com.google.inject</groupId>
             <artifactId>guice</artifactId>
